@@ -3,8 +3,10 @@ import './Table.css'
 import { BsFillPencilFill, BsFillTrashFill } from 'react-icons/bs'
 
 const Table = (props) => {
+  
   return (
     <div className="table-wrapper">
+      {/* <button className='btn_toggle' onClick={() => props.onToggleClick()}>Add Record</button> */}
       <table className="table">
         <thead>
           <tr>
